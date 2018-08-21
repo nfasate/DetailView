@@ -12,6 +12,7 @@
 		AED036FB212C288000204023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED036F9212C288000204023 /* Main.storyboard */; };
 		AED036FD212C288000204023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED036FC212C288000204023 /* Assets.xcassets */; };
 		AED03700212C288000204023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED036FE212C288000204023 /* LaunchScreen.storyboard */; };
+		AED03708212C3A3F00204023 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED03707212C3A3F00204023 /* CategoryHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AED036FC212C288000204023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED036FF212C288000204023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED03701212C288000204023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED03707212C3A3F00204023 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AED036F5212C288000204023 /* AppDelegate.swift */,
 				AED036F7212C288000204023 /* ViewController.swift */,
+				AED03707212C3A3F00204023 /* CategoryHeaderView.swift */,
 				AED036F9212C288000204023 /* Main.storyboard */,
 				AED036FC212C288000204023 /* Assets.xcassets */,
 				AED036FE212C288000204023 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED036F8212C288000204023 /* ViewController.swift in Sources */,
+				AED03708212C3A3F00204023 /* CategoryHeaderView.swift in Sources */,
 				AED036F6212C288000204023 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = DetailView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.DetailView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = DetailView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.DetailView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
