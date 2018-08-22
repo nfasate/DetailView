@@ -1,0 +1,12 @@
+PODS:
+  - RKParallaxEffect (2.0.0)
+
+DEPENDENCIES:
+  - RKParallaxEffect
+
+SPEC CHECKSUMS:
+  RKParallaxEffect: b49be3d5c88757f50004befb6be47d66959607d2
+
+PODFILE CHECKSUM: cecab7b5a32611c8f9247c6a0b0baa3cba44f521
+
+COCOAPODS: 1.4.0

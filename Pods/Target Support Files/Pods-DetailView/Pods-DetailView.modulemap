@@ -1,0 +1,6 @@
+framework module Pods_DetailView {
+  umbrella header "Pods-DetailView-umbrella.h"
+
+  export *
+  module * { export * }
+}
